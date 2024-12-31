@@ -24,9 +24,7 @@ body {
 .btn {
   @apply py-[3px] px-[8px] font-normal text-sm bg-transparent text-white border-2 border-white rounded-[4px] ;
 }
-.bg-img{
-  background-image: url('/Assets/main-image.jpg');
-}
+
 
 .btn-red-sm {
   @apply py-[3px] px-[8px] text-sm font-normal  bg-red-600 text-white rounded-[4px] ;
@@ -34,4 +32,7 @@ body {
 
 .btn-red-sm{
   margin-left: 15px;
+}
+.spantext{
+  line-height: 1.2;
 }
